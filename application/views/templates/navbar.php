@@ -33,12 +33,12 @@
 					</ul>
 				</li>
 				<li class="nav-item ml-2" id="profile">
-					<a class="nav-link " href="#">
+					<a class="nav-link " href="<?= base_url() ?>ansor/news">
 						Berita
 					</a>
 				</li>
 				<li class="nav-item ml-2" id="profile">
-					<a class="nav-link " href="#">
+					<a class="nav-link " href="<?= base_url() ?>ansor/show_page/tentang-kami">
 						Kontak Kami
 					</a>
 				</li>

@@ -1,7 +1,7 @@
 		<div class="space-nav"></div>
 		<a href="#">
 			<div class="footer-3 p-4 slideanim container-fluid">
-				To the top
+				Keatas
 			</div>
 		</a>		
 		<div class="footer container-fluid pt-3">
@@ -11,25 +11,21 @@
 						<h4>About</h4>
 						<p>Merupakan wadah untuk menginformasikan berbagai hal terkini terkait GP Ansor Jombang 
 						</p>
-						<h4>Location</h4>
+						<h4>Lokasi</h4>
 						<p>
-						Kabupaten Jombang, Jawa Timur
+						Office: Jl. Pakubuwono No. 32 B Jombang
 						</p>
 					</div>
 					<div class="col-md-3">
-						<h4>Quick Link</h4>
-						<ul>
-							<li><a href=" https://web.facebook.com/pcgpansorjombang/?_rdc=1&_rdr">Instagram</a></li>
-							<li><a href="<?= base_url();?>ansor/our-story#about-ais">Facebook</a></li>
-						</ul>
+						
 					</div>
 					<div class="col-md-3">
 						<h4>Find Us</h4>
-						<li><p><i class='fab fa-facebook-square'></i>
+						<p><i class='fab fa-facebook-square'></i>
 						<a href=" https://web.facebook.com/pcgpansorjombang/?_rdc=1&_rdr">Facebook (Ansor Jombang)</a></p></li>
-						<li><p><i class='fab fa-instagram'></i>
+						<p><i class='fab fa-instagram'></i>
 						<a href=" https://www.instagram.com/pcgpansorjombang/?hl=en">Instagram (Ansor Jombang)</a></p></li>
-						<li><p><i class='fab fa-facebook-square'></i>
+						<p><i class='fab fa-facebook-square'></i>
 						<a href=" https://www.youtube.com/channel/UCDK69Bq8u45GMNOTmNeMg3Q">Youtube (Ansor Jombang)</a></p></li>
 					</div>
 				</div>

@@ -1,5 +1,5 @@
 * {
-	font-family: "Montserrat", sans-serif;
+	font-family: 'Montserrat', sans-serif;
 }
 
 /*navbar*/
@@ -14,6 +14,10 @@
 	}
 }
 
+.navbar {
+	background-color: rgb(11, 90, 64);
+}
+
 .caret-off::before {
 	display: none;
 }
@@ -22,66 +26,50 @@
 	display: none;
 }
 
-#nav-home {
-	transition: 0.5s;
+.navbar {
+	transition: .5s;
 }
 
-#nav-home.show {
+.navbar.show {
 	background-color: rgba(64, 67, 86, 1);
 }
 
-#nav-home .nav-link {
-	transition: 0.5s;
+.nav-link {
+	transition: .5s;
 	color: white;
 	text-shadow: 3px 3px 5px black;
 }
 
-#nav-home.show .nav-link {
+.show .nav-link {
 	text-shadow: none;
 }
 
-#nav-home .nav-item.active,
-#nav-home .nav-item:hover {
-	background-color: rgb(255, 255, 255, 0.9);
+.nav-item.active,
+.nav-item:hover {
+	background-color: rgb(255, 255, 255, .9);
 }
 
-#nav-home .nav-item.active .nav-link,
-#nav-home .nav-item:hover .nav-link {
+.nav-item.active .nav-link,
+.nav-item:hover .nav-link {
 	text-shadow: none;
 	color: rgb(64, 67, 86) !important;
 }
 
-#nav-home .dropdown-menu {
+.dropdown-menu {
 	box-shadow: 0px 4px 8px black;
 	border: none;
 	border-radius: 0px;
 }
 
-#nav-home .navbar-brand {
+.navbar-brand {
 	color: white;
-	transition: 0.5s;
+	transition: .5s;
 	font-family: serif;
 }
 
-#nav-home .navbar-brand:hover {
+.navbar-brand:hover {
 	text-shadow: 3px 3px 5px black;
 	color: white;
-}
-
-/*blog*/
-.jumbotron {
-	background: url("../img/pattern1.png");
-}
-
-#nav-blog .nav-item.active,
-#nav-blog .nav-item:hover {
-	background-color: white;
-	color: teal;
-}
-
-.border-left {
-	border-left: 5px solid teal !important;
-	padding-left: 5px;
 }
 
 @media (min-width: 992px) {
@@ -144,17 +132,13 @@
 	text-align: left;
 }
 
-.carousel-caption h2 {
-	font-size: 3vw;
-}
-
 .carousel-caption p {
-	font-size: 1.5vw;
+	font-size: 20px;
 }
 
 /*content*/
 .title {
-	background: url("../img/pattern1.png");
+	background: url("assets/img/logonu.jpg");
 	background-attachment: fixed;
 	background-repeat: repeat-x;
 	height: 300px;
@@ -186,6 +170,7 @@
 }
 
 .content img {
+	width: 40%;
 	margin: 16px;
 }
 
@@ -253,15 +238,21 @@
 	}
 }
 
+/*medsoc*/
+.social {
+	background-color: rgb(178, 190, 190);
+}
+
+
 /*footer*/
 .footer {
-	background-color: rgb(41, 77, 143);
+	background-color: rgb(35, 138, 151);
 	color: white;
 }
 
 .footer a {
 	color: white;
-	transition: 0.2s;
+	transition: .2s;
 }
 
 .footer ul:hover li a {
@@ -278,14 +269,14 @@
 }
 
 .footer-2 {
-	background-color: rgb(1, 58, 58);
+	background-color: rgb(30, 122, 122);
 	color: white;
 	text-align: center;
 }
 
 .footer-3 {
 	background-color: rgb(4, 4, 54);
-	transition: 0.2s;
+	transition: .2s;
 	color: white;
 	text-align: center;
 }
@@ -297,8 +288,4 @@
 /*blog*/
 .detail-blog {
 	font-size: 13px;
-}
-
-.text-shadow {
-	text-shadow: 3px 3px 5px black;
 }

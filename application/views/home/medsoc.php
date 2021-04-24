@@ -61,20 +61,6 @@ $subscriber = $result ['items'][0]['statistics']['subscriberCount'];
 						</div>
 					</div>
 				</div>
-				<div class="row mt-3 pb-4">
-					<div class="col">
-						<div class="ig-thumbnail">
-							<img src="assets/img/instagram.png">							
-						</div>
-					</div>
-				</div>
-				<div class="row mt-3 pb-4">
-					<div class="col">
-						<div class="ig-thumbnail">
-							<img src="assets/img/instagram.png">							
-						</div>
-					</div>
-				</div>
 			</div>
 		</div>
 	</div>
