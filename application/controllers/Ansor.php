@@ -13,9 +13,12 @@ class Ansor extends CI_Controller
 		$data["title"] = "GP Ansor Jombang";
 		$data["selected"] = "home";
 		$data['result'] = $this->Ansor_model->get_CURL('https://www.googleapis.com/youtube/v3/channels?part=snippet,statistics&id=UCDK69Bq8u45GMNOTmNeMg3Q&key=AIzaSyCoQzkfEmoRR5hv1dORTDUbTU7WSnT-bA8');
+		$data['content'] = $this->Ansor_model->get_CURL("http://ansorjatim.or.id/wp-json/wp/v2/posts?_embed");
 		$this->load->view("templates/header", $data);
 		$this->load->view("templates/navbar", $data);
 		$this->load->view("templates/carousel");
+		$this->load->view("home/carousel-news", $data);
+		$this->load->view("ansor/news", $data);
 		$this->load->view("home/medsoc", $data);
 		$this->load->view("templates/footer");
 		//$data["content"] =
